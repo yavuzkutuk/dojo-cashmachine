@@ -51,9 +51,7 @@ function cashMachineIf(amount) {
     if (amount <= 0) {
         return "Montant invalide"; // Erreur si le montant est ≤ 0
     }
-
-    // Liste des billets disponibles
-    const bills = [500, 200, 100, 50, 20, 10, 5, 2, 1];
+    
     const result = {}; // Stocke le nombre de billets nécessaires
 
     // Calcul des billets nécessaires avec des if
