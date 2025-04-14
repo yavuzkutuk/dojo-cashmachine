@@ -65,7 +65,7 @@ cashMachine(-50);
 
 1. Déclarez un tableau contenant les valeurs des billets disponibles, par exemple : `[500, 200, 100, 50, 20, 10, 5, 2, 1]`.
 2. Initialisez un objet vide pour stocker le nombre de billets nécessaires.
-3. Utilisez une boucle pour parcourir les billets disponibles et calculez combien de chaque billet est nécessaire.
+3. Utilisez une boucle (plus compliqué) ou des conditions IF (plus simple) pour parcourir les billets disponibles et calculez combien de chaque billet est nécessaire.
 4. Gérez les cas où le montant est invalide (≤ 0).
 5. Testez votre fonction avec différents montants pour vérifier sa fiabilité.
 
